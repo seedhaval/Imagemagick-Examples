@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# This script creates a simple gif that animates the text "Simple".
+# The generated gif is opened using the animate program provided by Imagemagick.
+# Gif loop is executed once.
+# Author : Shah, Dhaval
+# Date : July 17, 2015
+# Usage : ./SimpleAnimation.sh
+
 function createImage {
 	convert \
 		-size 640x480 \
